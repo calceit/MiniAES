@@ -1,9 +1,10 @@
+
 #include <iostream>
 #include <iomanip>
 #include "miniaes.h"
 
 using namespace std;
-
+// this is a test, to show how github desktop works!
 // converts binary string to uint16_t
 // format: "p3 p2 p1 p0" where p0 is bits 0-3, p1 is bits 4-7, etc.
 uint16_t binaryToBlock(const string& binary) {
